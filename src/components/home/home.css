@@ -1,0 +1,32 @@
+.main-product-container {
+  width: 98%;
+
+  border: 1px solid black;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+.productimg {
+  width: 50%;
+  height: 250px;
+  margin: auto;
+}
+.productimg > img {
+  width: 200px;
+  height: 100%;
+}
+.productdiv > div:nth-child(2) {
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.productinfo {
+  display: block;
+  height: 30%;
+}
+.productinfo > div {
+  margin-bottom: 3px;
+}
